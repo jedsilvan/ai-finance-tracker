@@ -9,3 +9,4 @@ passlib[bcrypt]
 anthropic
 python-dotenv
 pydantic[email]
+pydantic-settings
