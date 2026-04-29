@@ -1,3 +1,5 @@
+#!/bin/bash
+
 podman-compose down -v
 podman rm -af
 podman rmi -af
