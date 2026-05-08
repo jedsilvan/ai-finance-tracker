@@ -8,7 +8,7 @@ Implement a secure, stateless authentication system using JWT. Users can registe
 ## 🔙 Backend Implementation
 
 ### 1. Database & Migrations
-- [ ] Run `alembic revision --autogenerate -m "add users table"`
+- [ ] Run `alembic revision --autogenerate -m "add users table"` or `docker exec -it backend alembic revision --autogenerate -m "add users table`
 - [ ] Verify `alembic/versions/xxxx_add_users.py` includes:
   ```python
   op.create_table('users',
