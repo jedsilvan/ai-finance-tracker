@@ -59,32 +59,32 @@ ai-finance-tracker/
 │
 ├── frontend/
 │   ├── src/
-│   │   ├── main.jsx
-│   │   ├── App.jsx
+│   │   ├── main.tsx
+│   │   ├── App.tsx
 │   │   ├── api/
-│   │   │   └── client.js         # Axios instance
+│   │   │   └── client.ts         # Axios instance
 │   │   ├── components/
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── TransactionForm.jsx
-│   │   │   ├── TransactionList.jsx
-│   │   │   ├── CategoryBadge.jsx
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── TransactionForm.tsx
+│   │   │   ├── TransactionList.tsx
+│   │   │   ├── CategoryBadge.tsx
 │   │   │   └── charts/
-│   │   │       ├── SpendingPieChart.jsx
-│   │   │       └── MonthlyBarChart.jsx
+│   │   │       ├── SpendingPieChart.tsx
+│   │   │       └── MonthlyBarChart.tsx
 │   │   ├── pages/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Transactions.jsx
-│   │   │   └── Insights.jsx
+│   │   │   ├── Login.tsx
+│   │   │   ├── Register.tsx
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── Transactions.tsx
+│   │   │   └── Insights.tsx
 │   │   ├── context/
-│   │   │   └── AuthContext.jsx
+│   │   │   └── AuthContext.tsx
 │   │   └── hooks/
-│   │       ├── useTransactions.js
-│   │       └── useInsights.js
+│   │       ├── useTransactions.ts
+│   │       └── useInsights.ts
 │   ├── index.html
 │   ├── package.json
-│   ├── tailwind.config.js
+│   ├── tailwind.config.ts
 │   └── Dockerfile
 │
 ├── docker-compose.yml
