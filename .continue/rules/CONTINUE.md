@@ -1,4 +1,3 @@
-```markdown
 # CONTINUE.md
 
 ## Project Overview
@@ -150,13 +149,13 @@ This project is a financial management application that allows users to track tr
    - Implement validation and business logic in the corresponding service.
 
 2. **Creating a New Transaction:**
-   - Add a form component in `frontend/src/components/TransactionForm.jsx`.
+   - Add a form component in `frontend/src/components/TransactionForm.tsx`.
    - Update the backend to handle POST requests at `/transactions`.
 
 #### Examples of Common Operations:
 - **Updating User Profile:**
   ```typescript
-  // frontend/src/api/client.js
+  // frontend/src/api/client.ts
   export async function updateUserProfile(userId, profileData) {
     const response = await fetch(`/users/${userId}`, {
       method: 'PUT',
@@ -192,4 +191,3 @@ This project is a financial management application that allows users to track tr
 - **Docker Compose File**: `docker-compose.yml`
 - **Backend Configuration**: `backend/app/config.py`
 - **Frontend Build Configuration**: `frontend/vite.config.ts`
-```
